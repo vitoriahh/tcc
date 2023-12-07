@@ -1,0 +1,98 @@
+/* Reset de estilos para remover margens e preenchimentos padrão do navegador */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos para o cabeçalho (header) */
+header {
+    background-color: #990b0b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para o título principal (h1) */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Estilos para a barra de navegação (nav) */
+nav {
+    margin-top: 20px;
+}
+
+/* Estilos para a lista não ordenada (ul) na barra de navegação */
+ul {
+    list-style: none;
+}
+
+/* Estilos para os itens da lista (li) na barra de navegação */
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Estilos para os links na barra de navegação */
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilos para os links na barra de navegação quando hover (passar o mouse por cima) */
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para as seções (section) */
+section {
+    margin: 40px 0;
+}
+
+/* Estilos para os títulos secundários (h2) nas seções */
+section h2 {
+    color: rgb(182, 15, 15)111;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a galeria de imagens */
+.imagem-galeria, .imagem-galeria1 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para o rodapé (footer) */
+footer {
+    background-color: #d31d1d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para a galeria de imagens */
+.imagem-galeria, .imagem-galeria1 {
+    margin: 0 auto 20px; /* Adiciona margens superior e inferior de 0 e centraliza horizontalmente */
+    text-align: center; /* Centraliza a imagem dentro da div */
+}
+
+/* Estilos para a descrição da imagem na galeria */
+.imagem-galeria p, .imagem-galeria1 p {
+    margin-top: 10px; /* Adiciona um espaçamento superior para a descrição */
+}
+
+/* Estilos para a imagem na galeria */
+.imagem-galeria img, .imagem-galeria1 img {
+    display: block; /* Garante que a imagem é tratada como um bloco */
+    margin: 0 auto; /* Centraliza horizontalmente a imagem dentro da div */
+}
+
+
